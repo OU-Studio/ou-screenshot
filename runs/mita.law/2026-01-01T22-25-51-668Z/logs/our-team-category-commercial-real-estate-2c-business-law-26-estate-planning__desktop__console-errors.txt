@@ -1,0 +1,11 @@
+Controller 'BlogImageLoader' in section '689e056ebdd3cd46416eeb34' threw upon initialization TypeError: Cannot read properties of undefined (reading 'node')
+    at n (https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/blog-image-loader.2f18b494e645405187d3.js:1:263)
+    at l (https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/blog-image-loader.2f18b494e645405187d3.js:1:411)
+    at l (https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/blog-image-loader.2f18b494e645405187d3.js:1:495)
+    at y._createController (https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/site-bundle.61b8fff676e6af18282a0ca344f678c6.js:2:62511)
+    at async https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/site-bundle.61b8fff676e6af18282a0ca344f678c6.js:2:60489
+    at async Promise.all (index 1)
+    at async y.create (https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/site-bundle.61b8fff676e6af18282a0ca344f678c6.js:2:60396)
+    at async Promise.all (index 0)
+    at async Promise.all (index 0)
+    at async c (https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/site-bundle.61b8fff676e6af18282a0ca344f678c6.js:2:129615)

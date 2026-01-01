@@ -1,0 +1,198 @@
+{
+  "domain": "mita.law",
+  "runTs": "2026-01-01T22-34-43-168Z",
+  "pages": [
+    {
+      "name": "our-team",
+      "url": "https://mita.law/our-team",
+      "desktop": "our-team/desktop.png",
+      "mobile": "our-team/mobile.png"
+    },
+    {
+      "name": "our-team-douglas-boyette",
+      "url": "https://mita.law/our-team/douglas-boyette",
+      "desktop": "our-team-douglas-boyette/desktop.png",
+      "mobile": "our-team-douglas-boyette/mobile.png"
+    },
+    {
+      "name": "our-team-katie-king",
+      "url": "https://mita.law/our-team/katie-king",
+      "desktop": "our-team-katie-king/desktop.png",
+      "mobile": "our-team-katie-king/mobile.png"
+    },
+    {
+      "name": "our-team-angela-ray-mancini",
+      "url": "https://mita.law/our-team/angela-ray-mancini",
+      "desktop": "our-team-angela-ray-mancini/desktop.png",
+      "mobile": "our-team-angela-ray-mancini/mobile.png"
+    },
+    {
+      "name": "our-team-hilary-mcleod",
+      "url": "https://mita.law/our-team/hilary-mcleod",
+      "desktop": "our-team-hilary-mcleod/desktop.png",
+      "mobile": "our-team-hilary-mcleod/mobile.png"
+    },
+    {
+      "name": "our-team-d-sinclaire-owen-welch",
+      "url": "https://mita.law/our-team/d-sinclaire-owen-welch",
+      "desktop": "our-team-d-sinclaire-owen-welch/desktop.png",
+      "mobile": "our-team-d-sinclaire-owen-welch/mobile.png"
+    },
+    {
+      "name": "our-team-john-doe-m8b46-wd2cx-zhgtd-j2ab5-cyztg",
+      "url": "https://mita.law/our-team/john-doe-m8b46-wd2cx-zhgtd-j2ab5-cyztg",
+      "desktop": "our-team-john-doe-m8b46-wd2cx-zhgtd-j2ab5-cyztg/desktop.png",
+      "mobile": "our-team-john-doe-m8b46-wd2cx-zhgtd-j2ab5-cyztg/mobile.png"
+    },
+    {
+      "name": "our-team-john-doe-m8b46-wd2cx-zhgtd-j2ab5-cyztg-ydcrd",
+      "url": "https://mita.law/our-team/john-doe-m8b46-wd2cx-zhgtd-j2ab5-cyztg-ydcrd",
+      "desktop": "our-team-john-doe-m8b46-wd2cx-zhgtd-j2ab5-cyztg-ydcrd/desktop.png",
+      "mobile": "our-team-john-doe-m8b46-wd2cx-zhgtd-j2ab5-cyztg-ydcrd/mobile.png"
+    },
+    {
+      "name": "our-team-john-doe-m8b46-wd2cx-zhgtd-j2ab5-cyztg-ydcrd-abtgk",
+      "url": "https://mita.law/our-team/john-doe-m8b46-wd2cx-zhgtd-j2ab5-cyztg-ydcrd-abtgk",
+      "desktop": "our-team-john-doe-m8b46-wd2cx-zhgtd-j2ab5-cyztg-ydcrd-abtgk/desktop.png",
+      "mobile": "our-team-john-doe-m8b46-wd2cx-zhgtd-j2ab5-cyztg-ydcrd-abtgk/mobile.png"
+    },
+    {
+      "name": "our-team-john-doe-m8b46-wd2cx-zhgtd-j2ab5-cyztg-ydcrd-abtgk-shdld",
+      "url": "https://mita.law/our-team/john-doe-m8b46-wd2cx-zhgtd-j2ab5-cyztg-ydcrd-abtgk-shdld",
+      "desktop": "our-team-john-doe-m8b46-wd2cx-zhgtd-j2ab5-cyztg-ydcrd-abtgk-shdld/desktop.png",
+      "mobile": "our-team-john-doe-m8b46-wd2cx-zhgtd-j2ab5-cyztg-ydcrd-abtgk-shdld/mobile.png"
+    },
+    {
+      "name": "our-team-john-doe-m8b46-wd2cx-zhgtd-j2ab5-cyztg-ydcrd-abtgk-shdld-4w2se",
+      "url": "https://mita.law/our-team/john-doe-m8b46-wd2cx-zhgtd-j2ab5-cyztg-ydcrd-abtgk-shdld-4w2se",
+      "desktop": "our-team-john-doe-m8b46-wd2cx-zhgtd-j2ab5-cyztg-ydcrd-abtgk-shdld-4w2se/desktop.png",
+      "mobile": "our-team-john-doe-m8b46-wd2cx-zhgtd-j2ab5-cyztg-ydcrd-abtgk-shdld-4w2se/mobile.png"
+    },
+    {
+      "name": "our-team-john-doe-m8b46-wd2cx-zhgtd-j2ab5-cyztg-ydcrd-abtgk-shdld-4w2se-6p54l",
+      "url": "https://mita.law/our-team/john-doe-m8b46-wd2cx-zhgtd-j2ab5-cyztg-ydcrd-abtgk-shdld-4w2se-6p54l",
+      "desktop": "our-team-john-doe-m8b46-wd2cx-zhgtd-j2ab5-cyztg-ydcrd-abtgk-shdld-4w2se-6p54l/desktop.png",
+      "mobile": "our-team-john-doe-m8b46-wd2cx-zhgtd-j2ab5-cyztg-ydcrd-abtgk-shdld-4w2se-6p54l/mobile.png"
+    },
+    {
+      "name": "our-team-category-commercial",
+      "url": "https://mita.law/our-team/category/Commercial",
+      "desktop": "our-team-category-commercial/desktop.png",
+      "mobile": "our-team-category-commercial/mobile.png"
+    },
+    {
+      "name": "our-team-category-commercial-real-estate-26-business-law",
+      "url": "https://mita.law/our-team/category/Commercial+Real+Estate+%26+Business+Law",
+      "desktop": "our-team-category-commercial-real-estate-26-business-law/desktop.png",
+      "mobile": "our-team-category-commercial-real-estate-26-business-law/mobile.png"
+    },
+    {
+      "name": "our-team-category-estate-planning",
+      "url": "https://mita.law/our-team/category/Estate+Planning",
+      "desktop": "our-team-category-estate-planning/desktop.png",
+      "mobile": "our-team-category-estate-planning/mobile.png"
+    },
+    {
+      "name": "our-team-category-residential",
+      "url": "https://mita.law/our-team/category/Residential",
+      "desktop": "our-team-category-residential/desktop.png",
+      "mobile": "our-team-category-residential/mobile.png"
+    },
+    {
+      "name": "our-team-category-residential-real-estate",
+      "url": "https://mita.law/our-team/category/Residential+Real+Estate",
+      "desktop": "our-team-category-residential-real-estate/desktop.png",
+      "mobile": "our-team-category-residential-real-estate/mobile.png"
+    },
+    {
+      "name": "our-team-category-business-law",
+      "url": "https://mita.law/our-team/category/Business+Law",
+      "desktop": "our-team-category-business-law/desktop.png",
+      "mobile": "our-team-category-business-law/mobile.png"
+    },
+    {
+      "name": "our-team-category-commercial-real-estate-2c-business-law-26-estate-planning",
+      "url": "https://mita.law/our-team/category/Commercial+Real+Estate%2C+Business+Law+%26+Estate+Planning",
+      "desktop": "our-team-category-commercial-real-estate-2c-business-law-26-estate-planning/desktop.png",
+      "mobile": "our-team-category-commercial-real-estate-2c-business-law-26-estate-planning/mobile.png"
+    },
+    {
+      "name": "our-team-tag-office-mascot",
+      "url": "https://mita.law/our-team/tag/Office+Mascot",
+      "desktop": "our-team-tag-office-mascot/desktop.png",
+      "mobile": "our-team-tag-office-mascot/mobile.png"
+    },
+    {
+      "name": "our-team-tag-administrative-assistant",
+      "url": "https://mita.law/our-team/tag/Administrative+Assistant",
+      "desktop": "our-team-tag-administrative-assistant/desktop.png",
+      "mobile": "our-team-tag-administrative-assistant/mobile.png"
+    },
+    {
+      "name": "our-team-tag-paralegal",
+      "url": "https://mita.law/our-team/tag/Paralegal",
+      "desktop": "our-team-tag-paralegal/desktop.png",
+      "mobile": "our-team-tag-paralegal/mobile.png"
+    },
+    {
+      "name": "our-team-tag-attorney",
+      "url": "https://mita.law/our-team/tag/Attorney",
+      "desktop": "our-team-tag-attorney/desktop.png",
+      "mobile": "our-team-tag-attorney/mobile.png"
+    },
+    {
+      "name": "about",
+      "url": "https://mita.law/about",
+      "desktop": "about/desktop.png",
+      "mobile": "about/mobile.png"
+    },
+    {
+      "name": "home",
+      "url": "https://mita.law/home",
+      "desktop": "home/desktop.png",
+      "mobile": "home/mobile.png"
+    },
+    {
+      "name": "residential",
+      "url": "https://mita.law/residential",
+      "desktop": "residential/desktop.png",
+      "mobile": "residential/mobile.png"
+    },
+    {
+      "name": "commercial",
+      "url": "https://mita.law/commercial",
+      "desktop": "commercial/desktop.png",
+      "mobile": "commercial/mobile.png"
+    },
+    {
+      "name": "estate-planning",
+      "url": "https://mita.law/estate-planning",
+      "desktop": "estate-planning/desktop.png",
+      "mobile": "estate-planning/mobile.png"
+    },
+    {
+      "name": "business-law",
+      "url": "https://mita.law/business-law",
+      "desktop": "business-law/desktop.png",
+      "mobile": "business-law/mobile.png"
+    },
+    {
+      "name": "team",
+      "url": "https://mita.law/team",
+      "desktop": "team/desktop.png",
+      "mobile": "team/mobile.png"
+    },
+    {
+      "name": "contact-us",
+      "url": "https://mita.law/contact-us",
+      "desktop": "contact-us/desktop.png",
+      "mobile": "contact-us/mobile.png"
+    },
+    {
+      "name": "practice-areas",
+      "url": "https://mita.law/practice-areas",
+      "desktop": "practice-areas/desktop.png",
+      "mobile": "practice-areas/mobile.png"
+    }
+  ]
+}

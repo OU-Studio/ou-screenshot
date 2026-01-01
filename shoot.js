@@ -29,12 +29,18 @@
 //   --no-block-noise          (disable request blocking)
 
 const { chromium } = require("playwright");
+const { PDFDocument, StandardFonts, rgb } = require("pdf-lib");
+const sharp = require("sharp");
 const fs = require("fs");
 const path = require("path");
 const { URL } = require("url");
-const pages = [];
+const pagesByDomain = new Map();
 
 const args = process.argv.slice(2);
+const pdfEnabled = hasFlag("pdf");
+const pdfOnly = hasFlag("pdf-only");
+const pdfNameArg = getArg("pdf-name") || "review-pack.pdf";
+const runDirArg = getArg("run-dir");
 
 /* -------------------------
    ARG HELPERS
@@ -52,12 +58,6 @@ function hasFlag(flag) {
 -------------------------- */
 const urlsArgRaw = getArg("urls");
 const sitemapArgRaw = getArg("sitemap");
-
-if (!urlsArgRaw && !sitemapArgRaw) {
-  console.log('Usage: node shoot.js --urls="https://domain.com" --mode=1|2');
-  console.log('   or: node shoot.js --sitemap="https://domain.com/sitemap.xml" --mode=1|2');
-  process.exit(1);
-}
 
 /* -------------------------
    BASIC HELPERS
@@ -385,12 +385,364 @@ async function resolveUrlsFromArgs() {
 }
 
 /* -------------------------
+   PDF REVIEW PACK
+-------------------------- */
+const PDF_PAGE = { width: 595.28, height: 841.89, margin: 36 };
+const PDF_MAX_IMAGE_WIDTH_PX = 1200;
+const PDF_TITLE_SIZE = 16;
+const PDF_LABEL_SIZE = 12;
+const PDF_TEXT_SIZE = 10;
+const PDF_LINE_HEIGHT = 12;
+
+function newPdfPage(pdfDoc) {
+  return pdfDoc.addPage([PDF_PAGE.width, PDF_PAGE.height]);
+}
+
+function wrapText(text, font, size, maxWidth) {
+  const words = String(text).split(/\s+/);
+  const lines = [];
+  let line = "";
+
+  for (const word of words) {
+    const testLine = line ? `${line} ${word}` : word;
+    const testWidth = font.widthOfTextAtSize(testLine, size);
+    if (testWidth <= maxWidth) {
+      line = testLine;
+      continue;
+    }
+
+    if (line) lines.push(line);
+    if (font.widthOfTextAtSize(word, size) <= maxWidth) {
+      line = word;
+    } else {
+      let chunk = "";
+      for (const ch of word) {
+        const chunkTest = chunk + ch;
+        if (font.widthOfTextAtSize(chunkTest, size) > maxWidth && chunk) {
+          lines.push(chunk);
+          chunk = ch;
+        } else {
+          chunk = chunkTest;
+        }
+      }
+      line = chunk;
+    }
+  }
+  if (line) lines.push(line);
+  return lines;
+}
+
+function drawWrappedText(pdfDoc, page, lines, { x, y, maxWidth, font, size, lineHeight }) {
+  let curPage = page;
+  let curY = y;
+
+  for (const line of lines) {
+    const wrapped = wrapText(line, font, size, maxWidth);
+    for (const wrappedLine of wrapped) {
+      if (curY - lineHeight < PDF_PAGE.margin) {
+        curPage = newPdfPage(pdfDoc);
+        curY = PDF_PAGE.height - PDF_PAGE.margin;
+      }
+      curY -= lineHeight;
+      curPage.drawText(wrappedLine, { x, y: curY, size, font, color: rgb(0, 0, 0) });
+    }
+  }
+
+  return { page: curPage, y: curY };
+}
+
+function readLines(filePath, maxLines) {
+  if (!filePath || !fs.existsSync(filePath)) return null;
+  const content = fs.readFileSync(filePath, "utf8");
+  const lines = content.split(/\r?\n/).slice(0, maxLines);
+  return lines;
+}
+
+function summarizeStability(filePath) {
+  if (!filePath || !fs.existsSync(filePath)) return null;
+  try {
+    const data = JSON.parse(fs.readFileSync(filePath, "utf8"));
+    const st = data.stability || data;
+    const status = st && st.ok ? "ok" : "timeout";
+    const extras = [];
+    if (typeof st?.pendingImgs === "number") extras.push(`pendingImgs=${st.pendingImgs}`);
+    if (typeof st?.domSize === "number") extras.push(`domSize=${st.domSize}`);
+    return extras.length ? `${status} (${extras.join(", ")})` : status;
+  } catch {
+    return "invalid stability json";
+  }
+}
+
+function buildLogsLines(pageName, logsDir) {
+  const lines = [];
+  let hasAny = false;
+  const viewports = ["desktop", "mobile"];
+  const logTypes = [
+    { label: "Console errors", suffix: "__console-errors.txt" },
+    { label: "Request failures", suffix: "__request-failures.txt" },
+  ];
+
+  for (const type of logTypes) {
+    for (const vp of viewports) {
+      const filePath = path.join(logsDir, `${pageName}__${vp}${type.suffix}`);
+      const contentLines = readLines(filePath, 20);
+      if (contentLines) {
+        hasAny = true;
+        lines.push(`${type.label} (${vp}):`);
+        lines.push(...(contentLines.length ? contentLines : ["(none)"]));
+      }
+    }
+  }
+
+  for (const vp of viewports) {
+    const filePath = path.join(logsDir, `${pageName}__${vp}__stability.json`);
+    const summary = summarizeStability(filePath);
+    if (summary) {
+      hasAny = true;
+      lines.push(`Stability (${vp}): ${summary}`);
+    }
+  }
+
+  return { lines, hasAny };
+}
+
+function resolveImagePath(runDir, relPath, pageName, fileName) {
+  if (relPath) return path.isAbsolute(relPath) ? relPath : path.join(runDir, relPath);
+  if (pageName && fileName) return path.join(runDir, pageName, fileName);
+  return null;
+}
+
+function drawSectionLabel(pdfDoc, page, y, label, font) {
+  const x = PDF_PAGE.margin;
+  const lineHeight = PDF_LABEL_SIZE + 4;
+  let curPage = page;
+  let curY = y;
+
+  if (curY - lineHeight < PDF_PAGE.margin) {
+    curPage = newPdfPage(pdfDoc);
+    curY = PDF_PAGE.height - PDF_PAGE.margin;
+  }
+
+  curY -= lineHeight;
+  curPage.drawText(label, { x, y: curY, size: PDF_LABEL_SIZE, font, color: rgb(0, 0, 0) });
+  curY -= 6;
+  return { page: curPage, y: curY };
+}
+
+async function addTiledImage(pdfDoc, page, y, imagePath) {
+  const contentWidth = PDF_PAGE.width - PDF_PAGE.margin * 2;
+  const x = PDF_PAGE.margin;
+
+  if (!imagePath || !fs.existsSync(imagePath)) {
+    return { page, y, missing: true };
+  }
+
+  let resizedBuffer;
+  try {
+    resizedBuffer = await sharp(imagePath)
+      .resize({ width: PDF_MAX_IMAGE_WIDTH_PX, withoutEnlargement: true })
+      .png()
+      .toBuffer();
+  } catch {
+    return { page, y, missing: true };
+  }
+
+  const meta = await sharp(resizedBuffer).metadata();
+  const imgWidthPx = meta.width || 1;
+  const imgHeightPx = meta.height || 1;
+  const scale = contentWidth / imgWidthPx;
+
+  let remainingHeightPx = imgHeightPx;
+  let offsetYpx = 0;
+  let curPage = page;
+  let curY = y;
+  let isFirstSlice = true;
+
+  while (remainingHeightPx > 0) {
+    if (!isFirstSlice) {
+      curPage = newPdfPage(pdfDoc);
+      curY = PDF_PAGE.height - PDF_PAGE.margin;
+    }
+
+    let availableHeightPts = curY - PDF_PAGE.margin;
+    if (availableHeightPts < 40) {
+      curPage = newPdfPage(pdfDoc);
+      curY = PDF_PAGE.height - PDF_PAGE.margin;
+      availableHeightPts = curY - PDF_PAGE.margin;
+    }
+
+    const sliceHeightPx = Math.min(remainingHeightPx, Math.floor(availableHeightPts / scale));
+    if (sliceHeightPx <= 0) break;
+
+    const sliceBuffer = await sharp(resizedBuffer)
+      .extract({ left: 0, top: offsetYpx, width: imgWidthPx, height: sliceHeightPx })
+      .png()
+      .toBuffer();
+
+    const embedded = await pdfDoc.embedPng(sliceBuffer);
+    const sliceHeightPts = sliceHeightPx * scale;
+
+    curPage.drawImage(embedded, {
+      x,
+      y: curY - sliceHeightPts,
+      width: contentWidth,
+      height: sliceHeightPts,
+    });
+
+    curY = curY - sliceHeightPts - 10;
+    remainingHeightPx -= sliceHeightPx;
+    offsetYpx += sliceHeightPx;
+    isFirstSlice = false;
+  }
+
+  return { page: curPage, y: curY, missing: false };
+}
+
+async function addPageSection(pdfDoc, fonts, runDir, pageInfo) {
+  const { font, fontBold } = fonts;
+  const logsDir = path.join(runDir, "logs");
+  let page = newPdfPage(pdfDoc);
+  let y = PDF_PAGE.height - PDF_PAGE.margin;
+  const x = PDF_PAGE.margin;
+  const maxWidth = PDF_PAGE.width - PDF_PAGE.margin * 2;
+
+  const title = pageInfo.name || "page";
+  page.drawText(title, { x, y: y - PDF_TITLE_SIZE, size: PDF_TITLE_SIZE, font: fontBold, color: rgb(0, 0, 0) });
+  y -= PDF_TITLE_SIZE + 8;
+
+  const urlText = pageInfo.url || "(url unavailable)";
+  ({ page, y } = drawWrappedText(pdfDoc, page, [urlText], {
+    x,
+    y,
+    maxWidth,
+    font,
+    size: PDF_TEXT_SIZE,
+    lineHeight: PDF_LINE_HEIGHT,
+  }));
+  y -= 6;
+
+  ({ page, y } = drawSectionLabel(pdfDoc, page, y, "Desktop", fontBold));
+  const desktopPath = resolveImagePath(runDir, pageInfo.desktop, pageInfo.name, "desktop.png");
+  const desktopResult = await addTiledImage(pdfDoc, page, y, desktopPath);
+  page = desktopResult.page;
+  y = desktopResult.y;
+  if (desktopResult.missing) {
+    ({ page, y } = drawWrappedText(pdfDoc, page, ["Missing desktop.png"], {
+      x,
+      y,
+      maxWidth,
+      font,
+      size: PDF_TEXT_SIZE,
+      lineHeight: PDF_LINE_HEIGHT,
+    }));
+    y -= 6;
+  }
+
+  ({ page, y } = drawSectionLabel(pdfDoc, page, y, "Mobile", fontBold));
+  const mobilePath = resolveImagePath(runDir, pageInfo.mobile, pageInfo.name, "mobile.png");
+  const mobileResult = await addTiledImage(pdfDoc, page, y, mobilePath);
+  page = mobileResult.page;
+  y = mobileResult.y;
+  if (mobileResult.missing) {
+    ({ page, y } = drawWrappedText(pdfDoc, page, ["Missing mobile.png"], {
+      x,
+      y,
+      maxWidth,
+      font,
+      size: PDF_TEXT_SIZE,
+      lineHeight: PDF_LINE_HEIGHT,
+    }));
+    y -= 6;
+  }
+
+  const logs = buildLogsLines(pageInfo.name, logsDir);
+  if (logs.hasAny) {
+    if (y - 80 < PDF_PAGE.margin) {
+      page = newPdfPage(pdfDoc);
+      y = PDF_PAGE.height - PDF_PAGE.margin;
+    }
+    ({ page, y } = drawSectionLabel(pdfDoc, page, y, "Logs", fontBold));
+    ({ page, y } = drawWrappedText(pdfDoc, page, logs.lines, {
+      x,
+      y,
+      maxWidth,
+      font,
+      size: PDF_TEXT_SIZE,
+      lineHeight: PDF_LINE_HEIGHT,
+    }));
+  }
+}
+
+function getDomainData(domain, runTs) {
+  if (pagesByDomain.has(domain)) return pagesByDomain.get(domain);
+  const runDir = path.join(process.cwd(), "runs", domain, runTs);
+  const entry = { runDir, pages: [] };
+  pagesByDomain.set(domain, entry);
+  return entry;
+}
+
+async function buildPdfFromRunDir(runDir, { pdfName = "review-pack.pdf", pagesOverride = null } = {}) {
+  const absRunDir = path.isAbsolute(runDir) ? runDir : path.join(process.cwd(), runDir);
+  const manifestPath = path.join(absRunDir, "manifest.json");
+  let pages = pagesOverride;
+
+  if (!pages && fs.existsSync(manifestPath)) {
+    try {
+      const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
+      if (Array.isArray(manifest.pages)) {
+        pages = manifest.pages;
+      }
+    } catch {}
+  }
+
+  if (!pages) {
+    const entries = fs.readdirSync(absRunDir, { withFileTypes: true });
+    pages = entries
+      .filter((e) => e.isDirectory() && e.name !== "logs")
+      .map((e) => ({
+        name: e.name,
+        url: null,
+        desktop: `${e.name}/desktop.png`,
+        mobile: `${e.name}/mobile.png`,
+      }))
+      .sort((a, b) => a.name.localeCompare(b.name));
+  }
+
+  const pdfDoc = await PDFDocument.create();
+  const font = await pdfDoc.embedFont(StandardFonts.Helvetica);
+  const fontBold = await pdfDoc.embedFont(StandardFonts.HelveticaBold);
+
+  for (const pageInfo of pages) {
+    await addPageSection(pdfDoc, { font, fontBold }, absRunDir, pageInfo);
+  }
+
+  const pdfBytes = await pdfDoc.save();
+  const outPath = path.join(absRunDir, pdfName || "review-pack.pdf");
+  fs.writeFileSync(outPath, pdfBytes);
+  console.log(`✔ PDF review pack saved → ${outPath}`);
+}
+
+/* -------------------------
    MAIN
 -------------------------- */
 (async () => {
+  if (pdfOnly) {
+    if (!runDirArg) {
+      console.log('Usage: node shoot.js --pdf-only --run-dir="runs/domain/2026-01-01T22-05-56-316Z"');
+      process.exit(1);
+    }
+    await buildPdfFromRunDir(runDirArg, { pdfName: pdfNameArg });
+    return;
+  }
+
+  if (!urlsArgRaw && !sitemapArgRaw) {
+    console.log('Usage: node shoot.js --urls="https://domain.com" --mode=1|2');
+    console.log('   or: node shoot.js --sitemap="https://domain.com/sitemap.xml" --mode=1|2');
+    process.exit(1);
+  }
+
   const runTs = new Date().toISOString().replace(/[:.]/g, "-");
   const urls = await resolveUrlsFromArgs();
-  const rootDomain = urls.length ? getDomain(urls[0]) : "unknown-domain";
 
   if (!urls.length) {
     console.log("No URLs to run (empty after filtering).");
@@ -427,7 +779,8 @@ async function resolveUrlsFromArgs() {
     const domain = getDomain(url);
     const pageName = getPageName(url);
 
-    const runDir = path.join(process.cwd(), "runs", domain, runTs);
+    const domainData = getDomainData(domain, runTs);
+    const runDir = domainData.runDir;
     const pageDir = path.join(runDir, pageName);
     const logsDir = path.join(runDir, "logs");
 
@@ -524,7 +877,7 @@ async function resolveUrlsFromArgs() {
               sameHostOnly,
             },
             stability,
-            ts: new Date().toISOString(),
+            ts: new Date().toISOString(), 
           },
           null,
           2
@@ -535,7 +888,7 @@ async function resolveUrlsFromArgs() {
       await page.close();
     }
 
-    pages.push({
+    domainData.pages.push({
       name: pageName,
       url,
       desktop: `${pageName}/desktop.png`,
@@ -544,7 +897,7 @@ async function resolveUrlsFromArgs() {
 
     fs.writeFileSync(
       path.join(runDir, "manifest.json"),
-      JSON.stringify({ domain: rootDomain, runTs: runTs, pages }, null, 2),
+      JSON.stringify({ domain, runTs: runTs, pages: domainData.pages }, null, 2),
       "utf8"
     );
 
@@ -553,6 +906,12 @@ async function resolveUrlsFromArgs() {
   }
 
   await browser.close();
+
+  if (pdfEnabled) {
+    for (const entry of pagesByDomain.values()) {
+      await buildPdfFromRunDir(entry.runDir, { pdfName: pdfNameArg, pagesOverride: entry.pages });
+    }
+  }
 })().catch((e) => {
   console.error("Fatal:", e);
   process.exit(1);
