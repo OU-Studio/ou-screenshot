@@ -32,6 +32,7 @@ const { chromium } = require("playwright");
 const fs = require("fs");
 const path = require("path");
 const { URL } = require("url");
+const pages = [];
 
 const args = process.argv.slice(2);
 
@@ -389,6 +390,7 @@ async function resolveUrlsFromArgs() {
 (async () => {
   const runTs = new Date().toISOString().replace(/[:.]/g, "-");
   const urls = await resolveUrlsFromArgs();
+  const rootDomain = urls.length ? getDomain(urls[0]) : "unknown-domain";
 
   if (!urls.length) {
     console.log("No URLs to run (empty after filtering).");
@@ -532,6 +534,20 @@ async function resolveUrlsFromArgs() {
 
       await page.close();
     }
+
+    pages.push({
+      name: pageName,
+      url,
+      desktop: `${pageName}/desktop.png`,
+      mobile: `${pageName}/mobile.png`,
+    });
+
+    fs.writeFileSync(
+      path.join(runDir, "manifest.json"),
+      JSON.stringify({ domain: rootDomain, runTs: runTs, pages }, null, 2),
+      "utf8"
+    );
+
 
     console.log(`✔ Captured ${url} → runs/${domain}/${runTs}/${pageName}/`);
   }
