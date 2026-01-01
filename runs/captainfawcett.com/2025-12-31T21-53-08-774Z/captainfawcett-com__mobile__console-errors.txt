@@ -1,0 +1,10 @@
+DearFlip: no constructor found on DFLIP – check build.
+Error: <path> attribute d: Expected path command, "… 3.17656 7.44632p.17392Z".
+Error: <path> attribute d: Expected path command, "… 3.98832 12.8557p.99042ZM4.50607…".
+Error: <path> attribute d: Expected path command, "… 3.17656 7.44632p.17392Z".
+Error: <path> attribute d: Expected path command, "… 3.98832 12.8557p.99042ZM4.50607…".
+Failed to load resource: the server responded with a status of 403 ()
+Access to XMLHttpRequest at 'https://a.klaviyo.com/onsite/track-analytics?company_id=Vt8f6J' from origin 'https://www.captainfawcett.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+Failed to load resource: net::ERR_FAILED
+Access to XMLHttpRequest at 'https://a.klaviyo.com/onsite/track-analytics?company_id=Vt8f6J' from origin 'https://www.captainfawcett.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+Failed to load resource: net::ERR_FAILED

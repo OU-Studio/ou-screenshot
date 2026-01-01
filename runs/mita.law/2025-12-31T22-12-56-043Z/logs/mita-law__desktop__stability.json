@@ -1,0 +1,40 @@
+{
+  "url": "https://mita.law/our-team/john-doe-m8b46-wd2cx-zhgtd-j2ab5-cyztg",
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 900
+  },
+  "mode": 1,
+  "options": {
+    "delayMs": 100,
+    "scrollDelayMs": 0,
+    "waitForSelector": null,
+    "waitTimeoutMs": 20000,
+    "fastStabilizeMs": 4000,
+    "stableIterations": 6,
+    "maxPendingImages": 5,
+    "sweepEnabled": true,
+    "sweepSteps": 6,
+    "sweepWaitMs": 250,
+    "spotsEnabled": true,
+    "spotPcts": [
+      40,
+      80
+    ],
+    "noFullPage": false,
+    "blockNoise": true,
+    "sitemap": null,
+    "include": null,
+    "exclude": null,
+    "limit": 0,
+    "sameHostOnly": false
+  },
+  "stability": {
+    "ok": true,
+    "height": 900,
+    "pendingImgs": 0,
+    "domSize": 435
+  },
+  "ts": "2025-12-31T22:13:01.844Z"
+}

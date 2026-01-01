@@ -1,0 +1,28 @@
+{
+  "url": "https://captainfawcett.com/",
+  "viewport": {
+    "name": "mobile",
+    "width": 390,
+    "height": 844
+  },
+  "options": {
+    "delayMs": 2000,
+    "scrollDelayMs": 0,
+    "waitForSelector": null,
+    "waitTimeoutMs": 20000,
+    "stabilizeTimeoutMs": 20000,
+    "stableIterations": 6,
+    "maxPendingImages": 0,
+    "spotsEnabled": false,
+    "spotPcts": [
+      25,
+      50,
+      75
+    ]
+  },
+  "stability": {
+    "ok": false,
+    "reason": "timeout"
+  },
+  "ts": "2025-12-31T21:36:33.708Z"
+}

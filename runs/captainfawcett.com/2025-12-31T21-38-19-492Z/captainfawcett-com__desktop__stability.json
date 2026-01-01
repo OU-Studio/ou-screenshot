@@ -1,0 +1,29 @@
+{
+  "url": "https://captainfawcett.com",
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 900
+  },
+  "options": {
+    "delayMs": 500,
+    "scrollDelayMs": 700,
+    "waitForSelector": null,
+    "waitTimeoutMs": 20000,
+    "stabilizeTimeoutMs": 25000,
+    "stableIterations": 4,
+    "maxPendingImages": 5,
+    "spotsEnabled": true,
+    "spotPcts": [
+      20,
+      40,
+      60,
+      80
+    ]
+  },
+  "stability": {
+    "ok": false,
+    "reason": "timeout"
+  },
+  "ts": "2025-12-31T21:39:22.239Z"
+}

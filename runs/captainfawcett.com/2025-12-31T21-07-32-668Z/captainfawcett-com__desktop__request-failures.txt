@@ -1,0 +1,6 @@
+POST https://www.captainfawcett.com/api/collect :: net::ERR_ABORTED
+POST https://monorail-edge.shopifysvc.com/v1/produce :: net::ERR_ABORTED
+POST https://monorail-edge.shopifysvc.com/v1/produce :: net::ERR_ABORTED
+POST https://www.captainfawcett.com/shopify_pay/accelerated_checkout :: net::ERR_ABORTED
+POST https://a.klaviyo.com/onsite/track-analytics?company_id=Vt8f6J :: net::ERR_FAILED
+POST https://a.klaviyo.com/onsite/track-analytics?company_id=Vt8f6J :: net::ERR_FAILED

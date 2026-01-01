@@ -1,0 +1,35 @@
+{
+  "url": "https://chair8media.com",
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 900
+  },
+  "mode": 1,
+  "options": {
+    "delayMs": 100,
+    "scrollDelayMs": 0,
+    "waitForSelector": null,
+    "waitTimeoutMs": 20000,
+    "fastStabilizeMs": 4000,
+    "stableIterations": 6,
+    "maxPendingImages": 5,
+    "sweepEnabled": true,
+    "sweepSteps": 6,
+    "sweepWaitMs": 250,
+    "spotsEnabled": true,
+    "spotPcts": [
+      40,
+      80
+    ],
+    "noFullPage": false,
+    "blockNoise": true
+  },
+  "stability": {
+    "ok": true,
+    "height": 5412,
+    "pendingImgs": 1,
+    "domSize": 683
+  },
+  "ts": "2025-12-31T22:01:32.644Z"
+}

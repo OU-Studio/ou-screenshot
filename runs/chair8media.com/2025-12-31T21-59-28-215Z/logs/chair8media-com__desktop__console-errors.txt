@@ -1,0 +1,3 @@
+NAV_FAIL: TimeoutError: page.goto: Timeout 60000ms exceeded.
+Call log:
+[2m  - navigating to "https://chair8media.com/", waiting until "networkidle"[22m

@@ -1,0 +1,35 @@
+{
+  "url": "https://mita.law/our-team/category/Commercial+Real+Estate+%26+Business+Law",
+  "domain": "mita.law",
+  "pageName": "our-team-category-commercial-real-estate-26-business-law",
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 900
+  },
+  "mode": 1,
+  "runTs": "2026-01-01T21-30-07-963Z",
+  "options": {
+    "waitForSelector": null,
+    "waitTimeoutMs": 20000,
+    "fastStabilizeMs": 4000,
+    "stableIterations": 6,
+    "maxPendingImages": 5,
+    "sweepEnabled": true,
+    "sweepSteps": 6,
+    "sweepWaitMs": 250,
+    "blockNoise": true,
+    "sitemap": null,
+    "include": null,
+    "exclude": null,
+    "limit": 0,
+    "sameHostOnly": false
+  },
+  "stability": {
+    "ok": true,
+    "height": 1253,
+    "pendingImgs": 0,
+    "domSize": 399
+  },
+  "ts": "2026-01-01T21:31:09.183Z"
+}
