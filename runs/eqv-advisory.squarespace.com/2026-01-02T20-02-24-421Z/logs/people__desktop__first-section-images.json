@@ -1,0 +1,137 @@
+{
+  "ok": true,
+  "sectionTag": "SECTION",
+  "sectionClasses": "page-section \n    \n      layout-engine-section\n    \n    background-width--full-bleed\n    \n      section-height--small\n    \n    \n      content-width--wide\n    \n    horizontal-alignment--center\n    vertical-alignment--middle\n    \n      \n    \n    \n    light",
+  "imgCount": 7,
+  "promoted": 0,
+  "before": [
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1767150823829-F3D34XRCRKJ5LUWFUCK2/DSC00006.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1767150823829-F3D34XRCRKJ5LUWFUCK2/DSC00006.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1767150823829-F3D34XRCRKJ5LUWFUCK2/DSC00006.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1767150823829-F3D34XRCRKJ5LUWFUCK2/DSC00006.jpg",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 748
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1765215992134-0IBIK5ITPPRIEF4FEXCG/A06A3071.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1765215992134-0IBIK5ITPPRIEF4FEXCG/A06A3071.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1765215992134-0IBIK5ITPPRIEF4FEXCG/A06A3071.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1765215992134-0IBIK5ITPPRIEF4FEXCG/A06A3071.jpg",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 750
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1767150896699-1DNM53EVMSSYXN59F5W1/A06A3096.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1767150896699-1DNM53EVMSSYXN59F5W1/A06A3096.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1767150896699-1DNM53EVMSSYXN59F5W1/A06A3096.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1767150896699-1DNM53EVMSSYXN59F5W1/A06A3096.jpg",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 750
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1766079363314-F4MU95UYXWJOCZKJ9HB6/A06A3066_%282%29.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1766079363314-F4MU95UYXWJOCZKJ9HB6/A06A3066_%282%29.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1766079363314-F4MU95UYXWJOCZKJ9HB6/A06A3066_%282%29.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1766079363314-F4MU95UYXWJOCZKJ9HB6/A06A3066_%282%29.jpg",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 750
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1766079567231-K6NRC8QSB9M012IOKVBX/A06A3036.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1766079567231-K6NRC8QSB9M012IOKVBX/A06A3036.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1766079567231-K6NRC8QSB9M012IOKVBX/A06A3036.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1766079567231-K6NRC8QSB9M012IOKVBX/A06A3036.jpg",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 750
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1766079700471-X3PL5XT8EM2UO25ZS7YT/A06A3047_%282%29.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1766079700471-X3PL5XT8EM2UO25ZS7YT/A06A3047_%282%29.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1766079700471-X3PL5XT8EM2UO25ZS7YT/A06A3047_%282%29.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1766079700471-X3PL5XT8EM2UO25ZS7YT/A06A3047_%282%29.jpg",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 750
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1766079965139-Z9A81K4SDHURRZ7KO36L/A06A3052.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1766079965139-Z9A81K4SDHURRZ7KO36L/A06A3052.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1766079965139-Z9A81K4SDHURRZ7KO36L/A06A3052.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1766079965139-Z9A81K4SDHURRZ7KO36L/A06A3052.jpg",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 750
+    }
+  ],
+  "after": [
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1767150823829-F3D34XRCRKJ5LUWFUCK2/DSC00006.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1767150823829-F3D34XRCRKJ5LUWFUCK2/DSC00006.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1767150823829-F3D34XRCRKJ5LUWFUCK2/DSC00006.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1767150823829-F3D34XRCRKJ5LUWFUCK2/DSC00006.jpg",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 748
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1765215992134-0IBIK5ITPPRIEF4FEXCG/A06A3071.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1765215992134-0IBIK5ITPPRIEF4FEXCG/A06A3071.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1765215992134-0IBIK5ITPPRIEF4FEXCG/A06A3071.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1765215992134-0IBIK5ITPPRIEF4FEXCG/A06A3071.jpg",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 750
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1767150896699-1DNM53EVMSSYXN59F5W1/A06A3096.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1767150896699-1DNM53EVMSSYXN59F5W1/A06A3096.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1767150896699-1DNM53EVMSSYXN59F5W1/A06A3096.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1767150896699-1DNM53EVMSSYXN59F5W1/A06A3096.jpg",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 750
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1766079363314-F4MU95UYXWJOCZKJ9HB6/A06A3066_%282%29.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1766079363314-F4MU95UYXWJOCZKJ9HB6/A06A3066_%282%29.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1766079363314-F4MU95UYXWJOCZKJ9HB6/A06A3066_%282%29.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1766079363314-F4MU95UYXWJOCZKJ9HB6/A06A3066_%282%29.jpg",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 750
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1766079567231-K6NRC8QSB9M012IOKVBX/A06A3036.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1766079567231-K6NRC8QSB9M012IOKVBX/A06A3036.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1766079567231-K6NRC8QSB9M012IOKVBX/A06A3036.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1766079567231-K6NRC8QSB9M012IOKVBX/A06A3036.jpg",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 750
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1766079700471-X3PL5XT8EM2UO25ZS7YT/A06A3047_%282%29.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1766079700471-X3PL5XT8EM2UO25ZS7YT/A06A3047_%282%29.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1766079700471-X3PL5XT8EM2UO25ZS7YT/A06A3047_%282%29.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1766079700471-X3PL5XT8EM2UO25ZS7YT/A06A3047_%282%29.jpg",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 750
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1766079965139-Z9A81K4SDHURRZ7KO36L/A06A3052.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1766079965139-Z9A81K4SDHURRZ7KO36L/A06A3052.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1766079965139-Z9A81K4SDHURRZ7KO36L/A06A3052.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/1766079965139-Z9A81K4SDHURRZ7KO36L/A06A3052.jpg",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 750
+    }
+  ]
+}

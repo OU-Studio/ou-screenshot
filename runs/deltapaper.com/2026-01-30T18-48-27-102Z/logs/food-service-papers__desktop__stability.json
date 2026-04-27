@@ -1,0 +1,35 @@
+{
+  "url": "http://www.deltapaper.com/food-service-papers/",
+  "domain": "deltapaper.com",
+  "pageName": "food-service-papers",
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 900
+  },
+  "mode": 2,
+  "runTs": "2026-01-30T18-48-27-102Z",
+  "options": {
+    "waitForSelector": null,
+    "waitTimeoutMs": 25000,
+    "fastStabilizeMs": 5000,
+    "stableIterations": 6,
+    "maxPendingImages": 5,
+    "sweepEnabled": true,
+    "sweepSteps": 8,
+    "sweepWaitMs": 300,
+    "blockNoise": true,
+    "sitemap": "https://www.deltapaper.com/sitemap.xml",
+    "include": null,
+    "exclude": null,
+    "limit": 0,
+    "sameHostOnly": false
+  },
+  "stability": {
+    "ok": true,
+    "height": 3100,
+    "pendingImgs": 0,
+    "domSize": 934
+  },
+  "ts": "2026-01-30T18:49:24.324Z"
+}

@@ -1,0 +1,44 @@
+{
+  "reveal0": {
+    "changed": 2,
+    "stillHidden": 2
+  },
+  "reveal1": {
+    "changed": 7,
+    "stillHidden": 2
+  },
+  "snap": {
+    "hiddenCount": 2,
+    "sample": [
+      {
+        "tag": "DIV",
+        "id": "yui_3_17_2_1_1767384205140_305",
+        "class": "slide content-fill sqs-gallery-design-stacked-slide loaded",
+        "dataAnimationRole": null,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "0",
+        "transform": "none",
+        "top": 3410,
+        "left": 23,
+        "w": 343,
+        "h": 343
+      },
+      {
+        "tag": "DIV",
+        "id": "yui_3_17_2_1_1767384205140_309",
+        "class": "slide content-fill sqs-gallery-design-stacked-slide loaded",
+        "dataAnimationRole": null,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "0",
+        "transform": "none",
+        "top": 3410,
+        "left": 23,
+        "w": 343,
+        "h": 343
+      }
+    ],
+    "preFadeCount": 0
+  }
+}

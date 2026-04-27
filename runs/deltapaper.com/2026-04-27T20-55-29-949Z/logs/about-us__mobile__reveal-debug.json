@@ -1,0 +1,86 @@
+{
+  "reveal0": {
+    "changed": 7,
+    "stillHidden": 5
+  },
+  "reveal1": {
+    "changed": 7,
+    "stillHidden": 5
+  },
+  "snap": {
+    "hiddenCount": 5,
+    "sample": [
+      {
+        "tag": "DIV",
+        "id": "yui_3_17_2_1_1777323341994_148",
+        "class": "slide content-fill sqs-gallery-design-stacked-slide loaded",
+        "dataAnimationRole": null,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "0",
+        "transform": "none",
+        "top": 2737,
+        "left": 18,
+        "w": 354,
+        "h": 293
+      },
+      {
+        "tag": "DIV",
+        "id": "yui_3_17_2_1_1777323341994_152",
+        "class": "slide content-fill sqs-gallery-design-stacked-slide loaded",
+        "dataAnimationRole": null,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "0",
+        "transform": "none",
+        "top": 2737,
+        "left": 18,
+        "w": 354,
+        "h": 293
+      },
+      {
+        "tag": "DIV",
+        "id": "yui_3_17_2_1_1777323341994_156",
+        "class": "slide content-fill sqs-gallery-design-stacked-slide loaded",
+        "dataAnimationRole": null,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "0",
+        "transform": "none",
+        "top": 2737,
+        "left": 18,
+        "w": 354,
+        "h": 293
+      },
+      {
+        "tag": "DIV",
+        "id": "yui_3_17_2_1_1777323341994_160",
+        "class": "slide content-fill sqs-gallery-design-stacked-slide loaded",
+        "dataAnimationRole": null,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "0",
+        "transform": "none",
+        "top": 2737,
+        "left": 18,
+        "w": 354,
+        "h": 293
+      },
+      {
+        "tag": "DIV",
+        "id": "yui_3_17_2_1_1777323341994_164",
+        "class": "slide content-fill sqs-gallery-design-stacked-slide loaded",
+        "dataAnimationRole": null,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "0",
+        "transform": "none",
+        "top": 2737,
+        "left": 18,
+        "w": 354,
+        "h": 293
+      }
+    ],
+    "preFadeCount": 0
+  }
+}

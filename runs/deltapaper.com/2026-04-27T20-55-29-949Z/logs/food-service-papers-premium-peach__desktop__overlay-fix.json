@@ -1,0 +1,10 @@
+{
+  "fixedCount": 1,
+  "fixes": [
+    {
+      "sectionId": "ss-1-f",
+      "overlayOpacity": "1",
+      "overlayBg": "rgb(9, 31, 53)"
+    }
+  ]
+}

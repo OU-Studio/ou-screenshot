@@ -1,0 +1,12 @@
+{
+  "domain": "deltapaper.com",
+  "runTs": "2026-01-30T18-58-07-382Z",
+  "pages": [
+    {
+      "name": "home",
+      "url": "http://www.deltapaper.com/",
+      "desktop": "desktop/home.png",
+      "mobile": "mobile/home.png"
+    }
+  ]
+}

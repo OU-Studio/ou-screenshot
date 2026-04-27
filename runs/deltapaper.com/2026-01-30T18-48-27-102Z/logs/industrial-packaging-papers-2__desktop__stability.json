@@ -1,0 +1,35 @@
+{
+  "url": "http://www.deltapaper.com/industrial-packaging-papers-2/",
+  "domain": "deltapaper.com",
+  "pageName": "industrial-packaging-papers-2",
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 900
+  },
+  "mode": 2,
+  "runTs": "2026-01-30T18-48-27-102Z",
+  "options": {
+    "waitForSelector": null,
+    "waitTimeoutMs": 25000,
+    "fastStabilizeMs": 5000,
+    "stableIterations": 6,
+    "maxPendingImages": 5,
+    "sweepEnabled": true,
+    "sweepSteps": 8,
+    "sweepWaitMs": 300,
+    "blockNoise": true,
+    "sitemap": "https://www.deltapaper.com/sitemap.xml",
+    "include": null,
+    "exclude": null,
+    "limit": 0,
+    "sameHostOnly": false
+  },
+  "stability": {
+    "ok": true,
+    "height": 1426,
+    "pendingImgs": 0,
+    "domSize": 626
+  },
+  "ts": "2026-01-30T18:49:07.917Z"
+}

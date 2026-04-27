@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "sectionTag": "SECTION",
+  "sectionClasses": "page-section \n    \n      layout-engine-section\n    \n    background-width--full-bleed\n    \n      section-height--medium\n    \n    \n      content-width--wide\n    \n    horizontal-alignment--center\n    vertical-alignment--middle\n    \n       has-background\n    \n    \n    bright",
+  "imgCount": 1,
+  "promoted": 0,
+  "before": [
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/691c91b23f2bfe690808852a/5a54a5ff-c8dc-4f6a-a09d-139375e022a4/delta-paper-careers.jpg",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/691c91b23f2bfe690808852a/5a54a5ff-c8dc-4f6a-a09d-139375e022a4/delta-paper-careers.jpg?format=1500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/691c91b23f2bfe690808852a/5a54a5ff-c8dc-4f6a-a09d-139375e022a4/delta-paper-careers.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/691c91b23f2bfe690808852a/5a54a5ff-c8dc-4f6a-a09d-139375e022a4/delta-paper-careers.jpg",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 960
+    }
+  ],
+  "after": [
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/691c91b23f2bfe690808852a/5a54a5ff-c8dc-4f6a-a09d-139375e022a4/delta-paper-careers.jpg",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/691c91b23f2bfe690808852a/5a54a5ff-c8dc-4f6a-a09d-139375e022a4/delta-paper-careers.jpg?format=1500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/691c91b23f2bfe690808852a/5a54a5ff-c8dc-4f6a-a09d-139375e022a4/delta-paper-careers.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/691c91b23f2bfe690808852a/5a54a5ff-c8dc-4f6a-a09d-139375e022a4/delta-paper-careers.jpg",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 960
+    }
+  ]
+}

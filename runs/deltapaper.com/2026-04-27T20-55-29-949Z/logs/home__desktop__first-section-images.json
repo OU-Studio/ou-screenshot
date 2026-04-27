@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "sectionTag": "SECTION",
+  "sectionClasses": "page-section \n    \n      layout-engine-section\n    \n    background-width--full-bleed\n    \n      section-height--large\n    \n    \n      content-width--wide\n    \n    horizontal-alignment--center\n    vertical-alignment--middle\n    \n    \n    bright",
+  "imgCount": 1,
+  "promoted": 0,
+  "before": [
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/691c91b23f2bfe690808852a/285fa0c6-d860-4649-b21e-aee047d261be/delta-paper.jpg?format=1500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/691c91b23f2bfe690808852a/285fa0c6-d860-4649-b21e-aee047d261be/delta-paper.jpg?format=1500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/691c91b23f2bfe690808852a/285fa0c6-d860-4649-b21e-aee047d261be/delta-paper.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/691c91b23f2bfe690808852a/285fa0c6-d860-4649-b21e-aee047d261be/delta-paper.jpg",
+      "complete": true,
+      "naturalWidth": 1500,
+      "naturalHeight": 844
+    }
+  ],
+  "after": [
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/691c91b23f2bfe690808852a/285fa0c6-d860-4649-b21e-aee047d261be/delta-paper.jpg?format=1500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/691c91b23f2bfe690808852a/285fa0c6-d860-4649-b21e-aee047d261be/delta-paper.jpg?format=1500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/691c91b23f2bfe690808852a/285fa0c6-d860-4649-b21e-aee047d261be/delta-paper.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/691c91b23f2bfe690808852a/285fa0c6-d860-4649-b21e-aee047d261be/delta-paper.jpg",
+      "complete": true,
+      "naturalWidth": 1500,
+      "naturalHeight": 844
+    }
+  ]
+}

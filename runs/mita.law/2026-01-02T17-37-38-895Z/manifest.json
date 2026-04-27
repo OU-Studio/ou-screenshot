@@ -1,0 +1,12 @@
+{
+  "domain": "mita.law",
+  "runTs": "2026-01-02T17-37-38-895Z",
+  "pages": [
+    {
+      "name": "business-law",
+      "url": "https://mita.law/business-law",
+      "desktop": "desktop/business-law.png",
+      "mobile": "mobile/business-law.png"
+    }
+  ]
+}

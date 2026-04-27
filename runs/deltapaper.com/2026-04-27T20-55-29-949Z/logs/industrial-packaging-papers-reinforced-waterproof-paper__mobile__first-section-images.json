@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "sectionTag": "SECTION",
+  "sectionClasses": "page-section \n    \n      layout-engine-section\n    \n    background-width--full-bleed\n    \n      section-height--medium\n    \n    \n      content-width--wide\n    \n    horizontal-alignment--center\n    vertical-alignment--middle\n    \n       has-background\n    \n    \n    ",
+  "imgCount": 1,
+  "promoted": 0,
+  "before": [
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/691c91b23f2bfe690808852a/1770396557981-FWAW08EOP8C74MKTT5XZ/Hero+Photo.jpg",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/691c91b23f2bfe690808852a/1770396557981-FWAW08EOP8C74MKTT5XZ/Hero+Photo.jpg?format=1000w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/691c91b23f2bfe690808852a/1770396557981-FWAW08EOP8C74MKTT5XZ/Hero+Photo.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/691c91b23f2bfe690808852a/1770396557981-FWAW08EOP8C74MKTT5XZ/Hero+Photo.jpg",
+      "complete": true,
+      "naturalWidth": 780,
+      "naturalHeight": 328
+    }
+  ],
+  "after": [
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/691c91b23f2bfe690808852a/1770396557981-FWAW08EOP8C74MKTT5XZ/Hero+Photo.jpg",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/691c91b23f2bfe690808852a/1770396557981-FWAW08EOP8C74MKTT5XZ/Hero+Photo.jpg?format=1000w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/691c91b23f2bfe690808852a/1770396557981-FWAW08EOP8C74MKTT5XZ/Hero+Photo.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/691c91b23f2bfe690808852a/1770396557981-FWAW08EOP8C74MKTT5XZ/Hero+Photo.jpg",
+      "complete": true,
+      "naturalWidth": 780,
+      "naturalHeight": 328
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "ok": true,
+  "sectionTag": "SECTION",
+  "sectionClasses": "page-section \n    \n      content-collection\n      full-bleed-section\n      collection-type-blog-basic-grid\n    \n    background-width--full-bleed\n    \n      section-height--medium\n    \n    \n      content-width--wide\n    \n    horizontal-alignment--center\n    vertical-alignment--middle\n    \n      \n    \n    \n    ",
+  "imgCount": 3,
+  "promoted": 1,
+  "before": [
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/dba658c8-fa74-4f6c-81c2-8db86e5c2515/DSC00006.jpg",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/dba658c8-fa74-4f6c-81c2-8db86e5c2515/DSC00006.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/dba658c8-fa74-4f6c-81c2-8db86e5c2515/DSC00006.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/dba658c8-fa74-4f6c-81c2-8db86e5c2515/DSC00006.jpg",
+      "complete": true,
+      "naturalWidth": 390,
+      "naturalHeight": 583
+    },
+    {
+      "src": "https://static1.squarespace.com/static/68bf20a4440db53a630ca8f1/t/69579becf9945830ec339553/1767349228073/displaying-19-gallery-images-for-linkedin-logo-png-25.png",
+      "currentSrc": "https://static1.squarespace.com/static/68bf20a4440db53a630ca8f1/t/69579becf9945830ec339553/1767349228073/displaying-19-gallery-images-for-linkedin-logo-png-25.png",
+      "dataSrc": null,
+      "dataImage": null,
+      "complete": true,
+      "naturalWidth": 320,
+      "naturalHeight": 320
+    },
+    {
+      "src": null,
+      "currentSrc": null,
+      "dataSrc": "https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/525c34f6e4b09199c2c2a425/29d1232849164f9783e47b4905bec4a4/29d1232849164f9783e47b4905bec4a4.jpeg?format=300w",
+      "dataImage": "https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/525c34f6e4b09199c2c2a425/29d1232849164f9783e47b4905bec4a4/29d1232849164f9783e47b4905bec4a4.jpeg?format=300w",
+      "complete": true,
+      "naturalWidth": 0,
+      "naturalHeight": 0
+    }
+  ],
+  "after": [
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/dba658c8-fa74-4f6c-81c2-8db86e5c2515/DSC00006.jpg",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/dba658c8-fa74-4f6c-81c2-8db86e5c2515/DSC00006.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/dba658c8-fa74-4f6c-81c2-8db86e5c2515/DSC00006.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/68bf20a4440db53a630ca8f1/dba658c8-fa74-4f6c-81c2-8db86e5c2515/DSC00006.jpg",
+      "complete": true,
+      "naturalWidth": 390,
+      "naturalHeight": 583
+    },
+    {
+      "src": "https://static1.squarespace.com/static/68bf20a4440db53a630ca8f1/t/69579becf9945830ec339553/1767349228073/displaying-19-gallery-images-for-linkedin-logo-png-25.png",
+      "currentSrc": "https://static1.squarespace.com/static/68bf20a4440db53a630ca8f1/t/69579becf9945830ec339553/1767349228073/displaying-19-gallery-images-for-linkedin-logo-png-25.png",
+      "dataSrc": null,
+      "dataImage": null,
+      "complete": true,
+      "naturalWidth": 320,
+      "naturalHeight": 320
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/525c34f6e4b09199c2c2a425/29d1232849164f9783e47b4905bec4a4/29d1232849164f9783e47b4905bec4a4.jpeg?format=300w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/525c34f6e4b09199c2c2a425/29d1232849164f9783e47b4905bec4a4/29d1232849164f9783e47b4905bec4a4.jpeg?format=300w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/525c34f6e4b09199c2c2a425/29d1232849164f9783e47b4905bec4a4/29d1232849164f9783e47b4905bec4a4.jpeg?format=300w",
+      "dataImage": "https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/525c34f6e4b09199c2c2a425/29d1232849164f9783e47b4905bec4a4/29d1232849164f9783e47b4905bec4a4.jpeg?format=300w",
+      "complete": true,
+      "naturalWidth": 300,
+      "naturalHeight": 300
+    }
+  ]
+}

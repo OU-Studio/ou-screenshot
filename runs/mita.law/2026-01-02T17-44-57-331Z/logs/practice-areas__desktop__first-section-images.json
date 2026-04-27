@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "sectionTag": "SECTION",
+  "sectionClasses": "page-section layout-engine-section background-width--full-bleed section-height--small content-width--wide horizontal-alignment--center vertical-alignment--middle dark small",
+  "imgCount": 1,
+  "promoted": 0,
+  "before": [
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1760668073222-S0IDHZN5CMPT1CKG3N4H/iStock-1782741711.jpg?format=1500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1760668073222-S0IDHZN5CMPT1CKG3N4H/iStock-1782741711.jpg?format=1500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1760668073222-S0IDHZN5CMPT1CKG3N4H/iStock-1782741711.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1760668073222-S0IDHZN5CMPT1CKG3N4H/iStock-1782741711.jpg",
+      "complete": true,
+      "naturalWidth": 1500,
+      "naturalHeight": 844
+    }
+  ],
+  "after": [
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1760668073222-S0IDHZN5CMPT1CKG3N4H/iStock-1782741711.jpg?format=1500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1760668073222-S0IDHZN5CMPT1CKG3N4H/iStock-1782741711.jpg?format=1500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1760668073222-S0IDHZN5CMPT1CKG3N4H/iStock-1782741711.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1760668073222-S0IDHZN5CMPT1CKG3N4H/iStock-1782741711.jpg",
+      "complete": true,
+      "naturalWidth": 1500,
+      "naturalHeight": 844
+    }
+  ]
+}

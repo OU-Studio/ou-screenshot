@@ -1,0 +1,209 @@
+{
+  "ok": true,
+  "sectionTag": "SECTION",
+  "sectionClasses": "page-section has-section-divider\n    \n      layout-engine-section\n    \n    background-width--full-bleed\n    \n      section-height--small\n    \n    \n      content-width--medium\n    \n    horizontal-alignment--center\n    vertical-alignment--middle\n    \n      \n    \n    \n    ",
+  "imgCount": 11,
+  "promoted": 0,
+  "before": [
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765557621986-ZW52AF3ZLMK16UK03W3V/Mita-Law-Headshots-3.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765557621986-ZW52AF3ZLMK16UK03W3V/Mita-Law-Headshots-3.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765557621986-ZW52AF3ZLMK16UK03W3V/Mita-Law-Headshots-3.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765557621986-ZW52AF3ZLMK16UK03W3V/Mita-Law-Headshots-3.jpg",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 667
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765557652606-D8OF6X0MUCXHQNJH61A6/Mita-Law-Headshots-5.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765557652606-D8OF6X0MUCXHQNJH61A6/Mita-Law-Headshots-5.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765557652606-D8OF6X0MUCXHQNJH61A6/Mita-Law-Headshots-5.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765557652606-D8OF6X0MUCXHQNJH61A6/Mita-Law-Headshots-5.jpg",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 666
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558450423-QHGGOYAKCDDMNVX13IRI/Mita-Law-Headshots-2.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558450423-QHGGOYAKCDDMNVX13IRI/Mita-Law-Headshots-2.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558450423-QHGGOYAKCDDMNVX13IRI/Mita-Law-Headshots-2.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558450423-QHGGOYAKCDDMNVX13IRI/Mita-Law-Headshots-2.jpg",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 667
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1767109171596-7UH1COJ4Y7H37N2517LG/Jessica%2BTarducci%2B-%2BHilary%2BMcLeod%2B-%2BHeadshot.webp?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1767109171596-7UH1COJ4Y7H37N2517LG/Jessica%2BTarducci%2B-%2BHilary%2BMcLeod%2B-%2BHeadshot.webp?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1767109171596-7UH1COJ4Y7H37N2517LG/Jessica%2BTarducci%2B-%2BHilary%2BMcLeod%2B-%2BHeadshot.webp",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1767109171596-7UH1COJ4Y7H37N2517LG/Jessica%2BTarducci%2B-%2BHilary%2BMcLeod%2B-%2BHeadshot.webp",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 625
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765557752924-6YC4RMPV1XXMVDB7EHQZ/Mita-Law-Headshots-7.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765557752924-6YC4RMPV1XXMVDB7EHQZ/Mita-Law-Headshots-7.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765557752924-6YC4RMPV1XXMVDB7EHQZ/Mita-Law-Headshots-7.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765557752924-6YC4RMPV1XXMVDB7EHQZ/Mita-Law-Headshots-7.jpg",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 667
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558662781-WH2CMH4J2UF5EY5KCD25/Mita-Law-Headshots-18.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558662781-WH2CMH4J2UF5EY5KCD25/Mita-Law-Headshots-18.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558662781-WH2CMH4J2UF5EY5KCD25/Mita-Law-Headshots-18.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558662781-WH2CMH4J2UF5EY5KCD25/Mita-Law-Headshots-18.jpg",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 667
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558060654-9FMTEPQ1EYC0DHTL71IR/Mita-Law-Headshots-15.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558060654-9FMTEPQ1EYC0DHTL71IR/Mita-Law-Headshots-15.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558060654-9FMTEPQ1EYC0DHTL71IR/Mita-Law-Headshots-15.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558060654-9FMTEPQ1EYC0DHTL71IR/Mita-Law-Headshots-15.jpg",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 667
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558591638-5VZP45NUNBPO30L2KSIY/Mita-Law-Headshots-13.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558591638-5VZP45NUNBPO30L2KSIY/Mita-Law-Headshots-13.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558591638-5VZP45NUNBPO30L2KSIY/Mita-Law-Headshots-13.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558591638-5VZP45NUNBPO30L2KSIY/Mita-Law-Headshots-13.jpg",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 667
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558710746-2AS2DUMYY9B2OZTASB8K/Mita-Law-Headshots-9.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558710746-2AS2DUMYY9B2OZTASB8K/Mita-Law-Headshots-9.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558710746-2AS2DUMYY9B2OZTASB8K/Mita-Law-Headshots-9.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558710746-2AS2DUMYY9B2OZTASB8K/Mita-Law-Headshots-9.jpg",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 667
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558537936-JT2D09L34RYX2LVYCDQF/Mita-Law-Headshots-11.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558537936-JT2D09L34RYX2LVYCDQF/Mita-Law-Headshots-11.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558537936-JT2D09L34RYX2LVYCDQF/Mita-Law-Headshots-11.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558537936-JT2D09L34RYX2LVYCDQF/Mita-Law-Headshots-11.jpg",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 667
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558174939-4TWU1OW3X1AHHO3CAPUI/Mita-Law-Team-Photos-1.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558174939-4TWU1OW3X1AHHO3CAPUI/Mita-Law-Team-Photos-1.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558174939-4TWU1OW3X1AHHO3CAPUI/Mita-Law-Team-Photos-1.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558174939-4TWU1OW3X1AHHO3CAPUI/Mita-Law-Team-Photos-1.jpg",
+      "complete": true,
+      "naturalWidth": 326,
+      "naturalHeight": 435
+    }
+  ],
+  "after": [
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765557621986-ZW52AF3ZLMK16UK03W3V/Mita-Law-Headshots-3.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765557621986-ZW52AF3ZLMK16UK03W3V/Mita-Law-Headshots-3.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765557621986-ZW52AF3ZLMK16UK03W3V/Mita-Law-Headshots-3.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765557621986-ZW52AF3ZLMK16UK03W3V/Mita-Law-Headshots-3.jpg",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 667
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765557652606-D8OF6X0MUCXHQNJH61A6/Mita-Law-Headshots-5.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765557652606-D8OF6X0MUCXHQNJH61A6/Mita-Law-Headshots-5.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765557652606-D8OF6X0MUCXHQNJH61A6/Mita-Law-Headshots-5.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765557652606-D8OF6X0MUCXHQNJH61A6/Mita-Law-Headshots-5.jpg",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 666
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558450423-QHGGOYAKCDDMNVX13IRI/Mita-Law-Headshots-2.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558450423-QHGGOYAKCDDMNVX13IRI/Mita-Law-Headshots-2.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558450423-QHGGOYAKCDDMNVX13IRI/Mita-Law-Headshots-2.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558450423-QHGGOYAKCDDMNVX13IRI/Mita-Law-Headshots-2.jpg",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 667
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1767109171596-7UH1COJ4Y7H37N2517LG/Jessica%2BTarducci%2B-%2BHilary%2BMcLeod%2B-%2BHeadshot.webp?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1767109171596-7UH1COJ4Y7H37N2517LG/Jessica%2BTarducci%2B-%2BHilary%2BMcLeod%2B-%2BHeadshot.webp?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1767109171596-7UH1COJ4Y7H37N2517LG/Jessica%2BTarducci%2B-%2BHilary%2BMcLeod%2B-%2BHeadshot.webp",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1767109171596-7UH1COJ4Y7H37N2517LG/Jessica%2BTarducci%2B-%2BHilary%2BMcLeod%2B-%2BHeadshot.webp",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 625
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765557752924-6YC4RMPV1XXMVDB7EHQZ/Mita-Law-Headshots-7.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765557752924-6YC4RMPV1XXMVDB7EHQZ/Mita-Law-Headshots-7.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765557752924-6YC4RMPV1XXMVDB7EHQZ/Mita-Law-Headshots-7.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765557752924-6YC4RMPV1XXMVDB7EHQZ/Mita-Law-Headshots-7.jpg",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 667
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558662781-WH2CMH4J2UF5EY5KCD25/Mita-Law-Headshots-18.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558662781-WH2CMH4J2UF5EY5KCD25/Mita-Law-Headshots-18.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558662781-WH2CMH4J2UF5EY5KCD25/Mita-Law-Headshots-18.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558662781-WH2CMH4J2UF5EY5KCD25/Mita-Law-Headshots-18.jpg",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 667
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558060654-9FMTEPQ1EYC0DHTL71IR/Mita-Law-Headshots-15.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558060654-9FMTEPQ1EYC0DHTL71IR/Mita-Law-Headshots-15.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558060654-9FMTEPQ1EYC0DHTL71IR/Mita-Law-Headshots-15.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558060654-9FMTEPQ1EYC0DHTL71IR/Mita-Law-Headshots-15.jpg",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 667
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558591638-5VZP45NUNBPO30L2KSIY/Mita-Law-Headshots-13.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558591638-5VZP45NUNBPO30L2KSIY/Mita-Law-Headshots-13.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558591638-5VZP45NUNBPO30L2KSIY/Mita-Law-Headshots-13.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558591638-5VZP45NUNBPO30L2KSIY/Mita-Law-Headshots-13.jpg",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 667
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558710746-2AS2DUMYY9B2OZTASB8K/Mita-Law-Headshots-9.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558710746-2AS2DUMYY9B2OZTASB8K/Mita-Law-Headshots-9.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558710746-2AS2DUMYY9B2OZTASB8K/Mita-Law-Headshots-9.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558710746-2AS2DUMYY9B2OZTASB8K/Mita-Law-Headshots-9.jpg",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 667
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558537936-JT2D09L34RYX2LVYCDQF/Mita-Law-Headshots-11.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558537936-JT2D09L34RYX2LVYCDQF/Mita-Law-Headshots-11.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558537936-JT2D09L34RYX2LVYCDQF/Mita-Law-Headshots-11.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558537936-JT2D09L34RYX2LVYCDQF/Mita-Law-Headshots-11.jpg",
+      "complete": true,
+      "naturalWidth": 500,
+      "naturalHeight": 667
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558174939-4TWU1OW3X1AHHO3CAPUI/Mita-Law-Team-Photos-1.jpg?format=500w",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558174939-4TWU1OW3X1AHHO3CAPUI/Mita-Law-Team-Photos-1.jpg?format=500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558174939-4TWU1OW3X1AHHO3CAPUI/Mita-Law-Team-Photos-1.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/1765558174939-4TWU1OW3X1AHHO3CAPUI/Mita-Law-Team-Photos-1.jpg",
+      "complete": true,
+      "naturalWidth": 326,
+      "naturalHeight": 435
+    }
+  ]
+}

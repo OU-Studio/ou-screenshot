@@ -1,0 +1,35 @@
+{
+  "url": "https://www.deltapaper.com/industrial-packaging-papers/polycoated-kraft-paper",
+  "domain": "deltapaper.com",
+  "pageName": "industrial-packaging-papers-polycoated-kraft-paper",
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 900
+  },
+  "mode": 1,
+  "runTs": "2026-04-27T20-55-29-949Z",
+  "options": {
+    "waitForSelector": null,
+    "waitTimeoutMs": 20000,
+    "fastStabilizeMs": 4000,
+    "stableIterations": 6,
+    "maxPendingImages": 5,
+    "sweepEnabled": true,
+    "sweepSteps": 6,
+    "sweepWaitMs": 250,
+    "blockNoise": true,
+    "sitemap": "https://www.deltapaper.com/sitemap.xml",
+    "include": null,
+    "exclude": null,
+    "limit": 0,
+    "sameHostOnly": false
+  },
+  "stability": {
+    "ok": true,
+    "height": 3135,
+    "pendingImgs": 0,
+    "domSize": 507
+  },
+  "ts": "2026-04-27T20:57:30.581Z"
+}

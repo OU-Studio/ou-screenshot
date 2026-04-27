@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "sectionTag": "SECTION",
+  "sectionClasses": "page-section \n    \n      layout-engine-section\n    \n    background-width--inset\n    \n      section-height--large\n    \n    \n      content-width--wide\n    \n    horizontal-alignment--center\n    vertical-alignment--middle\n    \n       has-background\n    \n    \n    white-bold",
+  "imgCount": 1,
+  "promoted": 0,
+  "before": [
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/c5c6c33f-2301-4881-8f05-e6dde3fae01d/Depositphotos_13297479_XL+1.jpg",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/c5c6c33f-2301-4881-8f05-e6dde3fae01d/Depositphotos_13297479_XL+1.jpg?format=1500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/c5c6c33f-2301-4881-8f05-e6dde3fae01d/Depositphotos_13297479_XL+1.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/c5c6c33f-2301-4881-8f05-e6dde3fae01d/Depositphotos_13297479_XL+1.jpg",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 923
+    }
+  ],
+  "after": [
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/c5c6c33f-2301-4881-8f05-e6dde3fae01d/Depositphotos_13297479_XL+1.jpg",
+      "currentSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/c5c6c33f-2301-4881-8f05-e6dde3fae01d/Depositphotos_13297479_XL+1.jpg?format=1500w",
+      "dataSrc": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/c5c6c33f-2301-4881-8f05-e6dde3fae01d/Depositphotos_13297479_XL+1.jpg",
+      "dataImage": "https://images.squarespace-cdn.com/content/v1/6863fcf0669c52619acdb77f/c5c6c33f-2301-4881-8f05-e6dde3fae01d/Depositphotos_13297479_XL+1.jpg",
+      "complete": true,
+      "naturalWidth": 1440,
+      "naturalHeight": 923
+    }
+  ]
+}

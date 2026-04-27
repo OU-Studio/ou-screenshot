@@ -1,0 +1,5 @@
+GET https://www.deltapaper.com/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxieyp8kv8jhgfvrjjfecg.woff2 :: net::ERR_FAILED
+GET https://www.deltapaper.com/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrldz8z1xlfq.woff2 :: net::ERR_FAILED
+GET https://www.deltapaper.com/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlej6z1xlfq.woff2 :: net::ERR_FAILED
+GET https://www.deltapaper.com/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlgt9z1xlfq.woff2 :: net::ERR_FAILED
+GET https://www.deltapaper.com/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlcz7z1xlfq.woff2 :: net::ERR_FAILED

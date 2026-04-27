@@ -1,0 +1,228 @@
+{
+  "domain": "deltapaper.com",
+  "runTs": "2026-04-27T20-55-29-949Z",
+  "pages": [
+    {
+      "name": "home",
+      "url": "https://www.deltapaper.com/home",
+      "desktop": "desktop/home.png",
+      "mobile": "mobile/home.png"
+    },
+    {
+      "name": "about-us",
+      "url": "https://www.deltapaper.com/about-us",
+      "desktop": "desktop/about-us.png",
+      "mobile": "mobile/about-us.png"
+    },
+    {
+      "name": "industrial-packaging-papers",
+      "url": "https://www.deltapaper.com/industrial-packaging-papers",
+      "desktop": "desktop/industrial-packaging-papers.png",
+      "mobile": "mobile/industrial-packaging-papers.png"
+    },
+    {
+      "name": "food-service-papers",
+      "url": "https://www.deltapaper.com/food-service-papers",
+      "desktop": "desktop/food-service-papers.png",
+      "mobile": "mobile/food-service-papers.png"
+    },
+    {
+      "name": "custom-printed-papers",
+      "url": "https://www.deltapaper.com/custom-printed-papers",
+      "desktop": "desktop/custom-printed-papers.png",
+      "mobile": "mobile/custom-printed-papers.png"
+    },
+    {
+      "name": "sustainability",
+      "url": "https://www.deltapaper.com/sustainability",
+      "desktop": "desktop/sustainability.png",
+      "mobile": "mobile/sustainability.png"
+    },
+    {
+      "name": "capabilities",
+      "url": "https://www.deltapaper.com/capabilities",
+      "desktop": "desktop/capabilities.png",
+      "mobile": "mobile/capabilities.png"
+    },
+    {
+      "name": "industrial-packaging-papers-virgin-kraft-paper",
+      "url": "https://www.deltapaper.com/industrial-packaging-papers/virgin-kraft-paper",
+      "desktop": "desktop/industrial-packaging-papers-virgin-kraft-paper.png",
+      "mobile": "mobile/industrial-packaging-papers-virgin-kraft-paper.png"
+    },
+    {
+      "name": "industrial-packaging-papers-packing-newsprint",
+      "url": "https://www.deltapaper.com/industrial-packaging-papers/packing-newsprint",
+      "desktop": "desktop/industrial-packaging-papers-packing-newsprint.png",
+      "mobile": "mobile/industrial-packaging-papers-packing-newsprint.png"
+    },
+    {
+      "name": "industrial-packaging-papers-natural-kraft-linerboard",
+      "url": "https://www.deltapaper.com/industrial-packaging-papers/natural-kraft-linerboard",
+      "desktop": "desktop/industrial-packaging-papers-natural-kraft-linerboard.png",
+      "mobile": "mobile/industrial-packaging-papers-natural-kraft-linerboard.png"
+    },
+    {
+      "name": "industrial-packaging-papers-gray-bogus-paper",
+      "url": "https://www.deltapaper.com/industrial-packaging-papers/gray-bogus-paper",
+      "desktop": "desktop/industrial-packaging-papers-gray-bogus-paper.png",
+      "mobile": "mobile/industrial-packaging-papers-gray-bogus-paper.png"
+    },
+    {
+      "name": "industrial-packaging-papers-polycoated-kraft-paper",
+      "url": "https://www.deltapaper.com/industrial-packaging-papers/polycoated-kraft-paper",
+      "desktop": "desktop/industrial-packaging-papers-polycoated-kraft-paper.png",
+      "mobile": "mobile/industrial-packaging-papers-polycoated-kraft-paper.png"
+    },
+    {
+      "name": "industrial-packaging-papers-1-white-mg-tissue",
+      "url": "https://www.deltapaper.com/industrial-packaging-papers/1-white-mg-tissue",
+      "desktop": "desktop/industrial-packaging-papers-1-white-mg-tissue.png",
+      "mobile": "mobile/industrial-packaging-papers-1-white-mg-tissue.png"
+    },
+    {
+      "name": "industrial-packaging-papers-2-and-4-packing-tissue",
+      "url": "https://www.deltapaper.com/industrial-packaging-papers/2-and-4-packing-tissue",
+      "desktop": "desktop/industrial-packaging-papers-2-and-4-packing-tissue.png",
+      "mobile": "mobile/industrial-packaging-papers-2-and-4-packing-tissue.png"
+    },
+    {
+      "name": "industrial-packaging-papers-anti-slip-kraft-paper",
+      "url": "https://www.deltapaper.com/industrial-packaging-papers/anti-slip-kraft-paper",
+      "desktop": "desktop/industrial-packaging-papers-anti-slip-kraft-paper.png",
+      "mobile": "mobile/industrial-packaging-papers-anti-slip-kraft-paper.png"
+    },
+    {
+      "name": "industrial-packaging-papers-black-kraft-paper",
+      "url": "https://www.deltapaper.com/industrial-packaging-papers/black-kraft-paper",
+      "desktop": "desktop/industrial-packaging-papers-black-kraft-paper.png",
+      "mobile": "mobile/industrial-packaging-papers-black-kraft-paper.png"
+    },
+    {
+      "name": "industrial-packaging-papers-indented-bogus-papers",
+      "url": "https://www.deltapaper.com/industrial-packaging-papers/indented-bogus-papers",
+      "desktop": "desktop/industrial-packaging-papers-indented-bogus-papers.png",
+      "mobile": "mobile/industrial-packaging-papers-indented-bogus-papers.png"
+    },
+    {
+      "name": "industrial-packaging-papers-recycled-medium",
+      "url": "https://www.deltapaper.com/industrial-packaging-papers/recycled-medium",
+      "desktop": "desktop/industrial-packaging-papers-recycled-medium.png",
+      "mobile": "mobile/industrial-packaging-papers-recycled-medium.png"
+    },
+    {
+      "name": "industrial-packaging-papers-reinforced-waterproof-kraft-401040",
+      "url": "https://www.deltapaper.com/industrial-packaging-papers/reinforced-waterproof-kraft-401040",
+      "desktop": "desktop/industrial-packaging-papers-reinforced-waterproof-kraft-401040.png",
+      "mobile": "mobile/industrial-packaging-papers-reinforced-waterproof-kraft-401040.png"
+    },
+    {
+      "name": "industrial-packaging-papers-reinforced-waterproof-paper",
+      "url": "https://www.deltapaper.com/industrial-packaging-papers/reinforced-waterproof-paper",
+      "desktop": "desktop/industrial-packaging-papers-reinforced-waterproof-paper.png",
+      "mobile": "mobile/industrial-packaging-papers-reinforced-waterproof-paper.png"
+    },
+    {
+      "name": "industrial-packaging-papers-white-kraft-paper",
+      "url": "https://www.deltapaper.com/industrial-packaging-papers/white-kraft-paper",
+      "desktop": "desktop/industrial-packaging-papers-white-kraft-paper.png",
+      "mobile": "mobile/industrial-packaging-papers-white-kraft-paper.png"
+    },
+    {
+      "name": "join-our-team",
+      "url": "https://www.deltapaper.com/join-our-team",
+      "desktop": "desktop/join-our-team.png",
+      "mobile": "mobile/join-our-team.png"
+    },
+    {
+      "name": "industrial-packaging-papers-recycled-kraft-paper",
+      "url": "https://www.deltapaper.com/industrial-packaging-papers/recycled-kraft-paper",
+      "desktop": "desktop/industrial-packaging-papers-recycled-kraft-paper.png",
+      "mobile": "mobile/industrial-packaging-papers-recycled-kraft-paper.png"
+    },
+    {
+      "name": "contact-us",
+      "url": "https://www.deltapaper.com/contact-us",
+      "desktop": "desktop/contact-us.png",
+      "mobile": "mobile/contact-us.png"
+    },
+    {
+      "name": "food-service-papers-white-butcher-paper",
+      "url": "https://www.deltapaper.com/food-service-papers/white-butcher-paper",
+      "desktop": "desktop/food-service-papers-white-butcher-paper.png",
+      "mobile": "mobile/food-service-papers-white-butcher-paper.png"
+    },
+    {
+      "name": "food-service-papers-white-freezer-paper",
+      "url": "https://www.deltapaper.com/food-service-papers/white-freezer-paper",
+      "desktop": "desktop/food-service-papers-white-freezer-paper.png",
+      "mobile": "mobile/food-service-papers-white-freezer-paper.png"
+    },
+    {
+      "name": "food-service-papers-natural-kraft-freezer-paper",
+      "url": "https://www.deltapaper.com/food-service-papers/natural-kraft-freezer-paper",
+      "desktop": "desktop/food-service-papers-natural-kraft-freezer-paper.png",
+      "mobile": "mobile/food-service-papers-natural-kraft-freezer-paper.png"
+    },
+    {
+      "name": "food-service-papers-peach-plus",
+      "url": "https://www.deltapaper.com/food-service-papers/peach-plus",
+      "desktop": "desktop/food-service-papers-peach-plus.png",
+      "mobile": "mobile/food-service-papers-peach-plus.png"
+    },
+    {
+      "name": "food-service-papers-premium-peach",
+      "url": "https://www.deltapaper.com/food-service-papers/premium-peach",
+      "desktop": "desktop/food-service-papers-premium-peach.png",
+      "mobile": "mobile/food-service-papers-premium-peach.png"
+    },
+    {
+      "name": "food-service-papers-silk-papers",
+      "url": "https://www.deltapaper.com/food-service-papers/silk-papers",
+      "desktop": "desktop/food-service-papers-silk-papers.png",
+      "mobile": "mobile/food-service-papers-silk-papers.png"
+    },
+    {
+      "name": "food-service-papers-white-mg-paper",
+      "url": "https://www.deltapaper.com/food-service-papers/white-mg-paper",
+      "desktop": "desktop/food-service-papers-white-mg-paper.png",
+      "mobile": "mobile/food-service-papers-white-mg-paper.png"
+    },
+    {
+      "name": "food-service-papers-tabletop-paper",
+      "url": "https://www.deltapaper.com/food-service-papers/tabletop-paper",
+      "desktop": "desktop/food-service-papers-tabletop-paper.png",
+      "mobile": "mobile/food-service-papers-tabletop-paper.png"
+    },
+    {
+      "name": "food-service-papers-natural-kraft-butcher-paper",
+      "url": "https://www.deltapaper.com/food-service-papers/natural-kraft-butcher-paper",
+      "desktop": "desktop/food-service-papers-natural-kraft-butcher-paper.png",
+      "mobile": "mobile/food-service-papers-natural-kraft-butcher-paper.png"
+    },
+    {
+      "name": "food-service-papers-black-steak-paper",
+      "url": "https://www.deltapaper.com/food-service-papers/black-steak-paper",
+      "desktop": "desktop/food-service-papers-black-steak-paper.png",
+      "mobile": "mobile/food-service-papers-black-steak-paper.png"
+    },
+    {
+      "name": "food-service-papers-peach-steak-paper",
+      "url": "https://www.deltapaper.com/food-service-papers/peach-steak-paper",
+      "desktop": "desktop/food-service-papers-peach-steak-paper.png",
+      "mobile": "mobile/food-service-papers-peach-steak-paper.png"
+    },
+    {
+      "name": "food-service-papers-green-steak-paper",
+      "url": "https://www.deltapaper.com/food-service-papers/green-steak-paper",
+      "desktop": "desktop/food-service-papers-green-steak-paper.png",
+      "mobile": "mobile/food-service-papers-green-steak-paper.png"
+    },
+    {
+      "name": "food-service-papers-green-steak-paper-1",
+      "url": "https://www.deltapaper.com/food-service-papers/green-steak-paper-1",
+      "desktop": "desktop/food-service-papers-green-steak-paper-1.png",
+      "mobile": "mobile/food-service-papers-green-steak-paper-1.png"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "domain": "deltapaper.com",
+  "runTs": "2026-01-30T18-59-53-491Z",
+  "pages": [
+    {
+      "name": "home",
+      "url": "http://www.deltapaper.com/",
+      "desktop": "desktop/home.png",
+      "mobile": "mobile/home.png"
+    },
+    {
+      "name": "industrial-packaging-papers-2",
+      "url": "http://www.deltapaper.com/industrial-packaging-papers-2/",
+      "desktop": "desktop/industrial-packaging-papers-2.png",
+      "mobile": "mobile/industrial-packaging-papers-2.png"
+    }
+  ]
+}

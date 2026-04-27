@@ -1,0 +1,36 @@
+{
+  "domain": "deltapaper.com",
+  "runTs": "2026-01-30T18-55-20-683Z",
+  "pages": [
+    {
+      "name": "home",
+      "url": "http://www.deltapaper.com/",
+      "desktop": "desktop/home.png",
+      "mobile": "mobile/home.png"
+    },
+    {
+      "name": "industrial-packaging-papers-2",
+      "url": "http://www.deltapaper.com/industrial-packaging-papers-2/",
+      "desktop": "desktop/industrial-packaging-papers-2.png",
+      "mobile": "mobile/industrial-packaging-papers-2.png"
+    },
+    {
+      "name": "food-service-papers",
+      "url": "http://www.deltapaper.com/food-service-papers/",
+      "desktop": "desktop/food-service-papers.png",
+      "mobile": "mobile/food-service-papers.png"
+    },
+    {
+      "name": "supermarket-papers",
+      "url": "http://www.deltapaper.com/supermarket-papers/",
+      "desktop": "desktop/supermarket-papers.png",
+      "mobile": "mobile/supermarket-papers.png"
+    },
+    {
+      "name": "custom-prints",
+      "url": "http://www.deltapaper.com/custom-prints/",
+      "desktop": "desktop/custom-prints.png",
+      "mobile": "mobile/custom-prints.png"
+    }
+  ]
+}

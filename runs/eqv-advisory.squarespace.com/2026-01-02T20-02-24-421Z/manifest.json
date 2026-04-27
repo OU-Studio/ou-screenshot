@@ -1,0 +1,66 @@
+{
+  "domain": "eqv-advisory.squarespace.com",
+  "runTs": "2026-01-02T20-02-24-421Z",
+  "pages": [
+    {
+      "name": "about",
+      "url": "https://eqv-advisory.squarespace.com/about",
+      "desktop": "desktop/about.png",
+      "mobile": "mobile/about.png"
+    },
+    {
+      "name": "people",
+      "url": "https://eqv-advisory.squarespace.com/people",
+      "desktop": "desktop/people.png",
+      "mobile": "mobile/people.png"
+    },
+    {
+      "name": "what-we-do",
+      "url": "https://eqv-advisory.squarespace.com/what-we-do",
+      "desktop": "desktop/what-we-do.png",
+      "mobile": "mobile/what-we-do.png"
+    },
+    {
+      "name": "investment-management",
+      "url": "https://eqv-advisory.squarespace.com/investment-management",
+      "desktop": "desktop/investment-management.png",
+      "mobile": "mobile/investment-management.png"
+    },
+    {
+      "name": "wealth-advisory",
+      "url": "https://eqv-advisory.squarespace.com/wealth-advisory",
+      "desktop": "desktop/wealth-advisory.png",
+      "mobile": "mobile/wealth-advisory.png"
+    },
+    {
+      "name": "operational-services",
+      "url": "https://eqv-advisory.squarespace.com/operational-services",
+      "desktop": "desktop/operational-services.png",
+      "mobile": "mobile/operational-services.png"
+    },
+    {
+      "name": "connect",
+      "url": "https://eqv-advisory.squarespace.com/connect",
+      "desktop": "desktop/connect.png",
+      "mobile": "mobile/connect.png"
+    },
+    {
+      "name": "client-login",
+      "url": "https://eqv-advisory.squarespace.com/client-login",
+      "desktop": "desktop/client-login.png",
+      "mobile": "mobile/client-login.png"
+    },
+    {
+      "name": "home-1",
+      "url": "https://eqv-advisory.squarespace.com/home-1",
+      "desktop": "desktop/home-1.png",
+      "mobile": "mobile/home-1.png"
+    },
+    {
+      "name": "team-rob-ragsdale",
+      "url": "https://eqv-advisory.squarespace.com/team/rob-ragsdale",
+      "desktop": "desktop/team-rob-ragsdale.png",
+      "mobile": "mobile/team-rob-ragsdale.png"
+    }
+  ]
+}

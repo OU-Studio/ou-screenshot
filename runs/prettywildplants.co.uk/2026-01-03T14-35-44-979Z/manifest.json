@@ -1,0 +1,120 @@
+{
+  "domain": "prettywildplants.co.uk",
+  "runTs": "2026-01-03T14-35-44-979Z",
+  "pages": [
+    {
+      "name": "home",
+      "url": "https://prettywildplants.co.uk/",
+      "desktop": "desktop/home.png",
+      "mobile": "mobile/home.png"
+    },
+    {
+      "name": "collections-all",
+      "url": "https://prettywildplants.co.uk/collections/all",
+      "desktop": "desktop/collections-all.png",
+      "mobile": "mobile/collections-all.png"
+    },
+    {
+      "name": "collections-organic-plants",
+      "url": "https://prettywildplants.co.uk/collections/organic-plants",
+      "desktop": "desktop/collections-organic-plants.png",
+      "mobile": "mobile/collections-organic-plants.png"
+    },
+    {
+      "name": "collections-dye-plants",
+      "url": "https://prettywildplants.co.uk/collections/dye-plants",
+      "desktop": "desktop/collections-dye-plants.png",
+      "mobile": "mobile/collections-dye-plants.png"
+    },
+    {
+      "name": "collections-poisonous-plants",
+      "url": "https://prettywildplants.co.uk/collections/poisonous-plants",
+      "desktop": "desktop/collections-poisonous-plants.png",
+      "mobile": "mobile/collections-poisonous-plants.png"
+    },
+    {
+      "name": "collections-herbal-tinctures",
+      "url": "https://prettywildplants.co.uk/collections/herbal-tinctures",
+      "desktop": "desktop/collections-herbal-tinctures.png",
+      "mobile": "mobile/collections-herbal-tinctures.png"
+    },
+    {
+      "name": "collections-herbal-teas",
+      "url": "https://prettywildplants.co.uk/collections/herbal-teas",
+      "desktop": "desktop/collections-herbal-teas.png",
+      "mobile": "mobile/collections-herbal-teas.png"
+    },
+    {
+      "name": "collections-dried-herbs",
+      "url": "https://prettywildplants.co.uk/collections/dried-herbs",
+      "desktop": "desktop/collections-dried-herbs.png",
+      "mobile": "mobile/collections-dried-herbs.png"
+    },
+    {
+      "name": "pages-about-pretty-wild-plants",
+      "url": "https://prettywildplants.co.uk/pages/about-pretty-wild-plants",
+      "desktop": "desktop/pages-about-pretty-wild-plants.png",
+      "mobile": "mobile/pages-about-pretty-wild-plants.png"
+    },
+    {
+      "name": "pages-plant-care",
+      "url": "https://prettywildplants.co.uk/pages/plant-care",
+      "desktop": "desktop/pages-plant-care.png",
+      "mobile": "mobile/pages-plant-care.png"
+    },
+    {
+      "name": "pages-poisonous-plants",
+      "url": "https://prettywildplants.co.uk/pages/poisonous-plants",
+      "desktop": "desktop/pages-poisonous-plants.png",
+      "mobile": "mobile/pages-poisonous-plants.png"
+    },
+    {
+      "name": "pages-dye-plants",
+      "url": "https://prettywildplants.co.uk/pages/dye-plants",
+      "desktop": "desktop/pages-dye-plants.png",
+      "mobile": "mobile/pages-dye-plants.png"
+    },
+    {
+      "name": "blogs-seasonal-journal",
+      "url": "https://prettywildplants.co.uk/blogs/seasonal-journal",
+      "desktop": "desktop/blogs-seasonal-journal.png",
+      "mobile": "mobile/blogs-seasonal-journal.png"
+    },
+    {
+      "name": "pages-workshops-events",
+      "url": "https://prettywildplants.co.uk/pages/workshops-events",
+      "desktop": "desktop/pages-workshops-events.png",
+      "mobile": "mobile/pages-workshops-events.png"
+    },
+    {
+      "name": "pages-shipping-plants",
+      "url": "https://prettywildplants.co.uk/pages/shipping-plants",
+      "desktop": "desktop/pages-shipping-plants.png",
+      "mobile": "mobile/pages-shipping-plants.png"
+    },
+    {
+      "name": "pages-contact-pretty-wild-plants",
+      "url": "https://prettywildplants.co.uk/pages/contact-pretty-wild-plants",
+      "desktop": "desktop/pages-contact-pretty-wild-plants.png",
+      "mobile": "mobile/pages-contact-pretty-wild-plants.png"
+    },
+    {
+      "name": "products-calendula-calendula-officinalis-skin-healing-golden-dye-herb",
+      "url": "https://prettywildplants.co.uk/products/calendula-calendula-officinalis-skin-healing-golden-dye-herb",
+      "desktop": "desktop/products-calendula-calendula-officinalis-skin-healing-golden-dye-herb.png",
+      "mobile": "mobile/products-calendula-calendula-officinalis-skin-healing-golden-dye-herb.png"
+    },
+    {
+      "name": "products-elderberry-fire-cider-warming-winter-wellness-tonic",
+      "url": "https://prettywildplants.co.uk/products/elderberry-fire-cider-warming-winter-wellness-tonic",
+      "desktop": "desktop/products-elderberry-fire-cider-warming-winter-wellness-tonic.png",
+      "mobile": "mobile/products-elderberry-fire-cider-warming-winter-wellness-tonic.png"
+    },
+    {
+      "name": "products-variegated-mugwort-oriental-limelight-striking-foliage-herb",
+      "url": "https://prettywildplants.co.uk/products/variegated-mugwort-oriental-limelight-striking-foliage-herb?_pos=25&_fid=6fc654b45&_ss=c",
+      "desktop": "desktop/products-variegated-mugwort-oriental-limelight-striking-foliage-herb.png",
+      "mobile": "mobile/products-variegated-mugwort-oriental-limelight-striking-foliage-herb.png"
+    }
+  ]
+}
