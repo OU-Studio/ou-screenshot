@@ -1,0 +1,134 @@
+{
+  "strikeBefore": {
+    "totalRoots": 259,
+    "strikeCount": 6,
+    "sample": [
+      {
+        "rootSelectorHit": "span",
+        "tag": "S",
+        "className": "f-price-item f-price-item--regular",
+        "text": "",
+        "textDecorationLine": "line-through",
+        "textDecoration": "line-through",
+        "color": "rgb(11, 32, 63)",
+        "opacity": "1"
+      },
+      {
+        "rootSelectorHit": "span",
+        "tag": "S",
+        "className": "f-price-item f-price-item--regular",
+        "text": "",
+        "textDecorationLine": "line-through",
+        "textDecoration": "line-through",
+        "color": "rgb(11, 32, 63)",
+        "opacity": "1"
+      },
+      {
+        "rootSelectorHit": "span",
+        "tag": "S",
+        "className": "f-price-item f-price-item--regular",
+        "text": "",
+        "textDecorationLine": "line-through",
+        "textDecoration": "line-through",
+        "color": "rgb(11, 32, 63)",
+        "opacity": "1"
+      },
+      {
+        "rootSelectorHit": "span",
+        "tag": "S",
+        "className": "f-price-item f-price-item--regular",
+        "text": "",
+        "textDecorationLine": "line-through",
+        "textDecoration": "line-through",
+        "color": "rgb(11, 32, 63)",
+        "opacity": "1"
+      },
+      {
+        "rootSelectorHit": "span",
+        "tag": "S",
+        "className": "f-price-item f-price-item--regular",
+        "text": "",
+        "textDecorationLine": "line-through",
+        "textDecoration": "line-through",
+        "color": "rgb(11, 32, 63)",
+        "opacity": "1"
+      },
+      {
+        "rootSelectorHit": "span",
+        "tag": "S",
+        "className": "f-price-item f-price-item--regular",
+        "text": "$150.00",
+        "textDecorationLine": "line-through",
+        "textDecoration": "line-through",
+        "color": "rgba(11, 32, 63, 0.75)",
+        "opacity": "1"
+      }
+    ]
+  },
+  "strikeAfter": {
+    "totalRoots": 268,
+    "strikeCount": 6,
+    "sample": [
+      {
+        "rootSelectorHit": "span",
+        "tag": "S",
+        "className": "f-price-item f-price-item--regular",
+        "text": "",
+        "textDecorationLine": "line-through",
+        "textDecoration": "line-through",
+        "color": "rgb(11, 32, 63)",
+        "opacity": "1"
+      },
+      {
+        "rootSelectorHit": "span",
+        "tag": "S",
+        "className": "f-price-item f-price-item--regular",
+        "text": "",
+        "textDecorationLine": "line-through",
+        "textDecoration": "line-through",
+        "color": "rgb(11, 32, 63)",
+        "opacity": "1"
+      },
+      {
+        "rootSelectorHit": "span",
+        "tag": "S",
+        "className": "f-price-item f-price-item--regular",
+        "text": "",
+        "textDecorationLine": "line-through",
+        "textDecoration": "line-through",
+        "color": "rgb(11, 32, 63)",
+        "opacity": "1"
+      },
+      {
+        "rootSelectorHit": "span",
+        "tag": "S",
+        "className": "f-price-item f-price-item--regular",
+        "text": "",
+        "textDecorationLine": "line-through",
+        "textDecoration": "line-through",
+        "color": "rgb(11, 32, 63)",
+        "opacity": "1"
+      },
+      {
+        "rootSelectorHit": "span",
+        "tag": "S",
+        "className": "f-price-item f-price-item--regular",
+        "text": "",
+        "textDecorationLine": "line-through",
+        "textDecoration": "line-through",
+        "color": "rgb(11, 32, 63)",
+        "opacity": "1"
+      },
+      {
+        "rootSelectorHit": "span",
+        "tag": "S",
+        "className": "f-price-item f-price-item--regular",
+        "text": "$150.00",
+        "textDecorationLine": "line-through",
+        "textDecoration": "line-through",
+        "color": "rgba(11, 32, 63, 0.75)",
+        "opacity": "1"
+      }
+    ]
+  }
+}

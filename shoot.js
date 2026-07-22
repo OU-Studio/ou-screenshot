@@ -1111,7 +1111,7 @@ async function logStrikeThroughRuleOrigins(page, logsDir, logBase) {
     return;
   }
 
-  const client = await page.target().createCDPSession();
+  const client = await page.target().newCDPSession(page);
 
   // Get nodeId for the element
   const { nodeId } = await client
